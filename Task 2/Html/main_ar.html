@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ENCS3320-خادم الويب</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fotTopic.css" />
+  </head>
+
+  <body>
+    <h1>مرحبًا بكم في ENCS3320 - خادم الويب لشبكات الحاسوب</h1>
+    <p>
+      تم تصميم هذه الصفحة الإلكترونية خصيصًا للمشروع الأول في مساق شبكات
+      الحاسوب.
+    </p>
+
+    <div class="strong-section">
+      <h2>حول مشروع أكواد PNH</h2>
+      <p style="color: #556677">
+        يتضمن المشروع بناء خادم ويب باستخدام برمجة المقابس socket programming
+        وإنشاء لعبة تريفيا متعددة اللاعبين تعتمد على بروتوكول UDP. المهام تتطلب
+        فهم أوامر الشبكات، بروتوكولات HTTP، والتواصل عبر المقابس.
+      </p>
+    </div>
+
+    <form
+      action="https://www.birzeit.edu/ar/content/encs3320-shbkt-lhswb"
+      method="get"
+      target="_blank"
+    >
+      <button type="submit">
+        اضغط لمعرفة المزيد عن ENCS3320 | شبكات الحاسوب
+      </button>
+    </form>
+
+    <form
+      action="https://gaia.cs.umass.edu/kurose_ross/index.php"
+      method="get"
+      target="_blank"
+    >
+      <button type="submit" style="font-size: 15px; padding: 10px 15px">
+        الموقع الرسمي للكتاب: شبكات الحاسوب - نهج من الأعلى إلى الأسفل، الإصدار
+        الثامن
+      </button>
+    </form>
+
+    <form action="https://ritaj.birzeit.edu/" method="get" target="_blank">
+      <button type="submit" style="font-size: 15px; padding: 10px 15px">
+        موقع ريتاج
+      </button>
+    </form>
+
+    <div class="center-link">
+      <a href="supporting_material_ar.html" target="_blank"
+        >ابحث عن صورة/فيديو</a
+      >
+    </div>
+
+    <footer>
+      &copy; 2024 ENCS3320 - جميع الحقوق محفوظة لفريق Programmers-Not-Humans
+    </footer>
+
+    <h1>أعضاء الفريق</h1>
+
+    <iframe
+      id="mohammadIIframe"
+      src="/mohammadInfo_ar.html"
+      style="
+        width: 100%;
+        height: 500px;
+        border: none;
+        overflow: hidden;
+        display: block;
+      "
+    ></iframe>
+
+    <iframe
+      id="toqaIframe"
+      src="/toqaInfo_ar.html"
+      style="
+        width: 100%;
+        height: 500px;
+        border: none;
+        overflow: hidden;
+        display: block;
+      "
+    ></iframe>
+
+    <iframe
+      id="omarIframe"
+      src="/omarInfo_ar.html"
+      style="
+        width: 100%;
+        height: 500px;
+        border: none;
+        overflow: hidden;
+        display: block;
+      "
+    ></iframe>
+
+    <!-- Chapter 1: Introduction to Computer Networking -->
+    <section class="chapter">
+      <h1>الفصل الأول: مقدمة في الشبكات الحاسوبية</h1>
+      <br /><br />
+
+      <h4 class="subheading">ما هو الانترنت؟</h4>
+      <p class="description">
+        الإنترنت هو <span class="italic">نظام عالمي</span> يتكون من شبكات
+        حاسوبية مرتبطة ببعضها البعض تستخدم مجموعة من البروتوكولات المهمة
+        <span class="bold">(أهمها TCP)</span>, لتتمكن من التواصل بين الشبكات
+        والأجهزة، كما تعرف أيضاً بأنها شبكة من الشبكات التي تصل إلى نطاق عالمي
+        وترتبط بمجموعة واسعة من التقنيات التي تمكنها من أداء عملها بشكل سليم..
+      </p>
+
+      <h4 class="subheading">المميزات الرئيسية:</h4>
+      <ul class="network-types">
+        <li>
+          <span class="bold">بنية تحتية:</span> يتضمن أجهزة وبرامج للتواصل
+          بسلاسة.
+        </li>
+        <li>
+          <span class="bold">النظام الموزع:</span> لا يوجد تحكم مركزي يضمن
+          قابلية التوسع والمرونة.
+        </li>
+        <li>
+          <span class="bold">تبديل الحزمة:</span> يتم إرسال البيانات كحزم، ويتم
+          توجيهها وإعادة تجميعها بشكل مستقل.
+        </li>
+        <li>
+          <span class="bold">البروتوكولات:</span> قواعد الاتصال القياسية مثل TCP
+          للتبادل الموثوق.
+        </li>
+      </ul>
+
+      <h4 class="subheading">بنية الانترنت:</h4>
+      <div class="component-group">
+        <ul class="component-list">
+          <li>
+            <span class="bold">الأنظمة النهائية (المضيفون):</span> الأجهزة التي
+            تتصل بالإنترنت، مثل الهواتف وأجهزة الكمبيوتر.
+          </li>
+          <li>
+            <span class="bold">شبكات الوصول:</span> وهو جزء من شبكة الاتصالات
+            التي تربط الأجهزة مثل أجهزة الكمبيوتر وغيرها بشبكة الإنترنت
+            الرئيسية.
+          </li>
+          <li>
+            <span class="bold">الشبكة الأساسية:</span> الموجهات والمفاتيح التي
+            تنقل البيانات بين الشبكات.
+          </li>
+        </ul>
+        <img
+          src="Structure_of_the_Internet.jpg"
+          alt="Internet Structure Diagram"
+          class="component-image"
+        />
+      </div>
+      <h4 class="subheading">مثال: الوصول إلى صفحة الويب:</h4>
+      <p class="description">عند طلب صفحة ويب:</p>
+      <div class="component-group">
+        <ul class="component-list">
+          <li>
+            <span class="bold">طلب المستخدم:</span> أدخل عنوان الويب في متصفحك.
+          </li>
+          <li>
+            <span class="bold">تحليل DNS:</span> تحويل اسم المجال إلى عنوان IP.
+          </li>
+          <li>
+            <span class="bold">نقل البيانات:</span> يقوم باسترجاع صفحة الويب
+            ويعرضها على المتصفح الخاص بك.
+          </li>
+        </ul>
+        <img
+          src="AccessingWebPage.jpg"
+          alt="Accessing a Web Page"
+          class="component-image"
+        />
+      </div>
+      <h4 class="subheading">الخاتمة:</h4>
+      <p class="description">
+        إن تصميم الإنترنت بهذه الطريقة واستخدام البروتوكولات القياسية يجعلها
+        أساس هذا العصر الحديث
+        <br />
+        <br />
+        <br />
+      </p>
+    </section>
+  </body>
+</html>

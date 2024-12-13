@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>المواد الداعمة</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      main {
+        margin: 2rem auto;
+        width: 80%;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 0.5rem;
+      }
+
+      label {
+        font-size: 1.2rem;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+
+      input[type="text"] {
+        width: 80%;
+        padding: 0.8rem;
+        margin: 1rem auto;
+        border: 2px solid #3d5a80;
+        border-radius: 5px;
+        font-size: 1rem;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="search-container">
+      <header>
+        <h1>المواد الداعمة لمقرر ENCS3320</h1>
+      </header>
+      <main>
+        <section>
+          <p>
+            الرجاء إدخال اسم الملف (صورة أو فيديو) المتعلق بمادة الشبكات
+            الحاسوبية:
+          </p>
+          <form method="GET" action="/search_supporting_material">
+            <label for="filename">اسم الملف:</label>
+            <input
+              type="text"
+              id="filename"
+              name="filename"
+              required
+            /><br /><br />
+            <button type="submit">إرسال</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        &copy; 2024 ENCS3320 - جميع الحقوق محفوظة لفريق Programmers-Not-Humans
+      </footer>
+    </div>
+  </body>
+</html>

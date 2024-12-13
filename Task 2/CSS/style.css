@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  background: #1a202c;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #98c1d9;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+p {
+  color: #c3d0db;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 20px auto;
+  width: 70%;
+  line-height: 1.8;
+}
+
+.chapter-title {
+  font-family: Arial;
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subheading {
+  margin-left: 50px;
+  font-family: Arial;
+  font-size: 18pt;
+  color: #98c1d9;
+}
+
+.description {
+  margin-left: 50px;
+  font-family: Arial;
+  font-size: 15pt;
+  color: white;
+}
+
+h3 {
+  color: #c3d0db;
+  margin-left: 50px;
+  font-size: 1.2em;
+  margin: 20px auto;
+  width: 70%;
+  line-height: 1.8;
+  font-size: 1em;
+  width: 90%;
+}
+
+a {
+  color: #98c1d9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.center-link {
+  text-align: center;
+  color: #98c1d9;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+a:hover {
+  color: #6caee0;
+}
+
+button {
+  background-color: #98c1d9;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6caee0;
+}
+
+footer {
+  background: #15191e;
+  color: #c3d0db;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.strong-section {
+  background: linear-gradient(135deg, #98c1d9, #6caee0);
+  color: #ffffff;
+  padding: 30px;
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.strong-section h2 {
+  font-size: 2em;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.strong-section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+    width: 90%;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+
+  .strong-section {
+    width: 90%;
+  }
+}
