@@ -52,7 +52,7 @@ This project aims to enhance understanding of fundamental networking concepts, s
   - The game will be played interactively, with the server managing the flow of questions and answers.
 
 ## Technologies Used
-- **Programming Languages**: Python (for Tasks 2 and 3), Bash (for Task 1)
+- **Programming Languages**: Python (for Task 2), Java (for Task 3), Bash (for Task 1)
 - **Networking Protocols**: TCP, UDP, HTTP
 - **Web Technologies**: HTML, CSS
 - **Tools**: Wireshark (for packet analysis), GitHub (for version control)
